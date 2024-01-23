@@ -2,6 +2,4 @@ url: https://giorgiacek.github.io/regexcite/
 template:
   bootstrap: 5
 
-development:
-  mode: auto
 
