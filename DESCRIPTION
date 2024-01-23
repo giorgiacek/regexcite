@@ -14,5 +14,5 @@ Suggests:
 Config/testthat/edition: 3
 Imports: 
     stringr
-URL: https://github.com/giorgiacek/regexcite
+URL: https://github.com/giorgiacek/regexcite, https://giorgiacek.github.io/regexcite/
 BugReports: https://github.com/giorgiacek/regexcite/issues
