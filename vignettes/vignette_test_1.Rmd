@@ -1,0 +1,39 @@
+---
+title: "vignette_test_1"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{vignette_test_1}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Getting Started
+
+```{r setup}
+library(regexcite)
+library(ggplot2)
+data(mtcars)
+```
+
+## Visualize Dataset
+
+```{r dataset}
+mtcars |> head()
+```
+
+## Plot Data
+
+```{r plot, echo=FALSE}
+
+mtcars |>
+  ggplot(aes(mpg, hp))+
+  geom_point()
+
+```
